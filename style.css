@@ -44,7 +44,7 @@
     align-items: center;
     justify-content: center;
     grid-area: body;
-    background: #7c0000;
+    background: #7b0000;
     background: linear-gradient(216deg, rgba(97, 0, 0, 1) 0%, rgba(186, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
 }
 
