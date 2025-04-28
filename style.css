@@ -1,0 +1,52 @@
+.container {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+        "body"
+        "head";
+    height: 100vh;
+    /* opcional: ocupa toda altura da tela */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    grid-area: head;
+    background-color: rgba(127, 0, 0, 0.993);
+}
+
+.button {
+    filter: drop-shadow(0 0 20px rgb(0, 0, 0));
+    position: relative;
+    left: -210px;
+    top: -110px;
+    width: 650px;
+}
+
+.tittle {
+    position: relative;
+    height: 60px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: body;
+    background-image: url("img/bg.jpg");
+    background-size: 290px;
+}
+
+.CardCont {
+    height: 95%;
+    width: 95%;
+    border: 1px solid;
+}
