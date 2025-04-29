@@ -66,7 +66,12 @@
 }
 
 .CardCont {
-    margin: 10px;
+    gap: 10px;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -75,4 +80,16 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 95%;
     height: 80vh;
+}
+
+.card {
+    display: flex;
+    height: 230px;
+    width: 220px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.58);
 }
